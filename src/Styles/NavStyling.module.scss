@@ -1,0 +1,37 @@
+$primary-color: rgb(251, 202, 202);
+$secondary-color: rgb(112, 161, 112);
+$error-color: #f44336;
+$warning-color: #ff9800;
+$info-color: #2196f3;
+$success-color: #4caf50;
+$custom-color: #6a1b9a;
+
+.navbar {
+    // display: grid;
+    // border-radius: 1em;
+    color: $primary-color;
+    padding: 1em;
+    margin: 0;
+    .navbar_toolbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: $secondary-color;
+        align-items: center;
+        padding: 0 2em;
+        color: $primary-color;
+        .nav_box {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+        }
+        .nav_item {
+            text-decoration: none; 
+            color: inherit;
+        }
+    }
+    a {
+        text-decoration: none; 
+        color: rgb(112, 161, 112);      
+    }
+}
