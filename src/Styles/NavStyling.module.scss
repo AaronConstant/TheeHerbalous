@@ -1,24 +1,25 @@
-$primary-color: rgb(251, 202, 202);
-$secondary-color: rgb(112, 161, 112);
-$error-color: #f44336;
-$warning-color: #ff9800;
-$info-color: #2196f3;
-$success-color: #4caf50;
-$custom-color: #6a1b9a;
+// $primary-color: rgb(251, 202, 202);
+// $secondary-color: rgb(112, 161, 112);
+// $error-color: #f44336;
+// $warning-color: #ff9800;
+// $info-color: #2196f3;
+// $success-color: #4caf50;
+// $custom-color: #6a1b9a;
 
 .navbar {
     // display: grid;
     // border-radius: 1em;
-    color: $primary-color;
+    background: none;
+    
     padding: 1em;
     margin: 0;
     .navbar_toolbar {
         display: flex;
         justify-content: space-around;
-        background-color: $secondary-color;
+        // background-color: $secondary-color;
         align-items: center;
         padding: 0 2em;
-        color: $primary-color;
+        color: white;
         .nav_box {
             flex-grow: 1;
             display: flex;
