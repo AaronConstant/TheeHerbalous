@@ -1,4 +1,4 @@
-#home {
+.home {
     border: rgb(179, 73, 73) 1px solid;
     display: grid;
     justify-content: center; 
@@ -7,7 +7,8 @@
     padding: 1em; 
     margin: 1em 4em;
 
-    h1 {
+    .welcoming_message {
+        font-size: 1.5em;
         color: black;
     }
 }

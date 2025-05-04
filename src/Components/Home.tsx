@@ -1,12 +1,16 @@
 import React from 'react';
-import '../Styles/HomeStyling.scss';
-import RevolvingBanner from './RevolvingBanner';
+import { Box, Paper } from '@mui/material';
+import homeStyles from '../Styles/HomeStyling.module.scss'
+import RevolvingBanner from './SubComponents/RevolvingBanner';
 const Home: React.FC = () => {
     return (
-        <div id="home">
-            <h1>Welcome to Thee Herbalous!</h1>
+        <Box  className={homeStyles.home}>
+            <Paper className={homeStyles.welcoming_message}>Welcome to Thee Herbalous!</Paper>
             <RevolvingBanner />
-        </div>
+            <div className='reference-banner'>
+                <p>I am a reference</p>
+            </div>
+        </Box>
     );
 };
 
